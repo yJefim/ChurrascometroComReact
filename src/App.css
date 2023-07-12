@@ -11,7 +11,7 @@
 main{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    justify-content: space-evenly;    height: 100vh;
 }
 .content-left{
     width: 70%;
@@ -92,14 +92,15 @@ small{
 
 @media (max-width:478px){
     main{
-        flex-direction: column;
+        display: block;
     }
     .content-left{
-        height: 70%;
+        height: 50%;
         width: 100%;
         background-size: 200px;
     }
     .content-right{
+        /* display: none; */
         width: 100%;
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
