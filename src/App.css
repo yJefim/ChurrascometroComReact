@@ -89,3 +89,19 @@ h2{
 small{
     font-size: 0.8rem;
 }
+
+@media (max-width:478px){
+    main{
+        flex-direction: column;
+    }
+    .content-left{
+        height: 70%;
+        width: 100%;
+        background-size: 200px;
+    }
+    .content-right{
+        width: 100%;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+}
